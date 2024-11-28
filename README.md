@@ -5,7 +5,8 @@ The following repository supports the manuscript "Renewal Equations for vector-b
 Fully reproducible code has been structured in the format of targets, a Make-like pipeline tool/package in R.
 
 ## Notes:
-  - The application to simulated and real-world data demonstrates calculation of the time-varying generation time distribution under simplifying assumptions of temperature-dependent generation time distributions between stages of the transmission cycle. The objective is       not to estimate necessarily realistic generation time distributions, but rather to demonstrate that even if we assume temperature-dependent conditions, a stage-specific approach is required.
+  - The application to simulated and real-world data demonstrates calculation of the time-varying generation time distribution under simplifying assumptions of temperature-dependent generation time distributions between stages of the transmission cycle (see functions.R).
+  - The objective of the applications is not to estimate necessarily realistic generation time distributions, but rather to demonstrate that even if we assume temperature-dependent conditions, a stage-specific approach is required.
   - Please note that the framework allows for more general time-varying generation time distributions by changing the birth process functions that control the generation time distribution. See manuscript for further details
   - Temperature data sources: The ERA5 global reanalysis dataset and Meterological Service Singpaore.
 
